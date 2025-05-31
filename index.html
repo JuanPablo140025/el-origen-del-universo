@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El origen del universo</title>
+    <meta name="description" content="Explora el origen del universo, desde el Big Bang hasta las teorías modernas del cosmos.">
+    <meta name="keywords" content="origen del universo, Big Bang, cosmología, evolución cósmica, ciencia, espacio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" type="6e9383782ae78cd19da20984-text/javascript"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('planetas.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: lightgreen;
+        }
+
+        main {
+            padding-top: 120px;
+        }
+
+        .section {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 28px;
+        }
+
+        p {
+            background-color: rgba(192, 192, 192, 0.9);
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .box {
+            display: inline-block;
+            padding: 20px;
+            border: 3px solid black;
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-image: url('patronp.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 50px 0;
+            color: black;
+            text-align: center;
+        }
+
+        img, video, iframe {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        #topBtn {
+            display: none;
+            position: fixed;
+            bottom: 40px;
+            right: 30px;
+            z-index: 99;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            nav a {
+                font-size: 16px;
+                display: inline-block;
+                margin: 5px;
+            }
+
+            .box {
+                width: 90%;
+                margin: auto;
+            }
+        }
+
+        /* Scroll suave y compensación del header fijo */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .section::before {
+            content: "";
+            display: block;
+            height: 120px;
+            margin-top: -120px;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El origen del universo</h1>
+        <nav>
+            <a href="#bigbang">Big Bang</a>
+            <a href="#evolucion">Evolución Cósmica</a>
+            <a href="#estructuras">Estructuras y Futuro</a>
+            <a href="#filosofia">Visión Filosófica</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bigbang" class="section">
+            <h2>Teoría del Big Bang</h2>
+            <p>
+                El origen del universo, tal como lo entendemos desde la cosmología moderna, se remonta al momento del Big Bang, un evento ocurrido hace aproximadamente 13.800 millones de años. 
+                A diferencia de una explosión convencional, el Big Bang no fue una detonación dentro del espacio, sino una expansión del propio espacio-tiempo desde un estado extremadamente caliente y denso. 
+                Según la teoría, todas las leyes físicas que hoy conocemos comenzaron a existir en ese momento. Durante los primeros instantes (menos de una fracción de segundo), el universo experimentó una rápida expansión conocida como inflación. 
+                En esa fase, las cuatro fuerzas fundamentales (gravedad, electromagnetismo, fuerza nuclear fuerte y débil) estaban unificadas. Conforme la expansión continuó, la temperatura descendió y estas fuerzas se diferenciaron.
+            </p>
+            <img src="big bang.jpg" alt="Representación del Big Bang">
+        </section>
+
+        <section id="evolucion" class="section">
+            <h2>Evolución Cósmica</h2>
+            <p>
+                Después del Big Bang, el universo pasó por un periodo de expansión extremadamente rápida conocido como inflación cósmica. 
+                Conforme el universo se fue enfriando, la energía comenzó a transformarse en materia, generando las primeras partículas subatómicas como quarks, gluones y electrones. 
+                Luego, en los primeros minutos, ocurrió la nucleosíntesis primordial, donde se formaron los núcleos de los elementos más ligeros, principalmente hidrógeno, helio y trazas de litio.
+                A los 380.000 años, los electrones se combinaron con núcleos para formar átomos, liberando así la radiación cósmica de fondo (CMB), una huella fósil del universo temprano que aún se detecta hoy en día.
+            </p>
+        </section>
+
+        <section id="estructuras" class="section">
+            <h2>Formación de estructuras y futuro del universo</h2>
+            <p>
+                Las pequeñas irregularidades en la densidad del universo primitivo fueron amplificadas bajo el efecto de la gravedad, formando las primeras estrellas, galaxias y cúmulos.
+                Hoy, se cree que el universo está compuesto por aproximadamente un 68% de energía oscura, 27% de materia oscura y solo un 5% de materia ordinaria (la que forma planetas, estrellas y seres vivos).
+                La energía oscura, en particular, es responsable de la aceleración de la expansión del universo. 
+                Existen varias hipótesis sobre el destino final del cosmos: el Big Freeze (enfriamiento eterno), el Big Crunch (colapso gravitacional) o el Big Rip (desgarramiento del espacio-tiempo), dependiendo del comportamiento futuro de esta energía oscura.
+            </p>
+        </section>
+
+        <section id="filosofia" class="section">
+            <h2>Visión filosófica y científica del origen</h2>
+            <p>
+                El origen del universo ha sido una cuestión tanto científica como filosófica. Las preguntas sobre qué hubo antes del Big Bang o si nuestro universo es único siguen abiertas. 
+                Algunos modelos, como la teoría de cuerdas o la cosmología cuántica, sugieren que nuestro universo podría ser parte de un multiverso: una colección infinita de universos con distintas leyes físicas.
+                Otras teorías proponen que el universo surgió de fluctuaciones cuánticas del vacío. Aunque estas ideas aún no pueden probarse directamente, nos muestran cómo la física moderna intenta responder cuestiones que antes solo pertenecían al ámbito espiritual o metafísico.
+                Ciencia y espiritualidad convergen en la búsqueda de respuestas al misterio del cosmos, abriendo la posibilidad de que el conocimiento humano evolucione hacia una comprensión más profunda de nuestro lugar en el universo.
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oBJqaHOmElI" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="box">
+            <p>Si quieres saber más, contáctanos.</p>
+            <p>📞 Teléfono: 3784-856-834-2925</p>
+            <p>📧 Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1e7d71706a7f7d6a715e6b7077687b6c6d71307d7173">[email&#160;protected]</a></p>
+            <p>Síguenos:</p>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <p>Gracias por visitar nuestra página. ¡Que tengas un buen día!</p>
+        </div>
+    </footer>
+
+    <button onclick="if (!window.__cfRLUnblockHandlers) return false; if (!window.__cfRLUnblockHandlers) return false; topFunction()" id="topBtn" title="Ir arriba" data-cf-modified-6e9383782ae78cd19da20984-="" data-cf-modified-709411820c98b411bb35a433-="">↑</button>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script type="6e9383782ae78cd19da20984-text/javascript">
+        window.onscroll = function () {
+            let btn = document.getElementById("topBtn");
+            btn.style.display = (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) ? "block" : "none";
+        };
+
+        function topFunction() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6e9383782ae78cd19da20984-|49" defer type="709411820c98b411bb35a433-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="709411820c98b411bb35a433-|49" defer></script></body>
+</html>
